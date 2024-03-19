@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap');
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -61,7 +63,10 @@ body {
 	left: 0;
 	z-index: -1;
 }
-
+.carousel-item img{
+	height: 100%;
+	object-fit: cover;
+}
 .picture {
 	flex: 1;
 	margin: 0 20px;
